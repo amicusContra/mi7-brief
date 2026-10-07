@@ -1,0 +1,14 @@
+# Private research repo — strict gitignore
+*.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.cursor/
+node_modules/
+
+# Never commit raw PII files
+pii/
+raw-screenshots/
